@@ -1,0 +1,52 @@
+/* This is a comment */
+
+/* CSS Syntax 
+
+selector {
+	property: values;
+}
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display');
+
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+	color: blue;
+	font-family: 'Ruslan Display', cursive;
+}
+
+figcaption {
+	font-weight: normal;
+	font-size: 0.75em;
+	line-height: 1.5em;
+	font-family: Georgia, "New Times Roman", serif;
+}
+
+#top {
+	background: aqua;
+}
+
+#top h1 {
+	font-family: cursive;
+}
+
+#links {
+	background: yellow;
+}
+
+#links a:link, #links a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+#links a:hover {
+	color: pink;
+	text-decoration: underline;
+}
+
+#links a:active {
+	color: white;
+}
